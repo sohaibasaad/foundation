@@ -1,0 +1,72 @@
+.aboutsection {
+    margin: 8px;
+    background-color: #457B6D;
+    border: 1px solid #457B6D;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    color: #F8F3EA;
+    font-style: normal;
+} 
+
+.line {
+    border-top: .3rem solid #F8F3EA;
+    width: 2rem;
+    margin-top: 60px;
+    margin-left: 75px;
+}
+.heading1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    margin-left: 113px;
+    margin-top: -33px;
+} 
+.allcontent{
+    line-height: 30px;
+    margin-top: 100px;
+    background-color: #457B6D;  
+}
+
+.aboutImg {
+    width: 400px;
+    height: 400px;
+} 
+#contenttwo{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.contentHeading {
+    margin-top: 4em ;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 1rem;
+    letter-spacing: 3px;
+}
+
+.para {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 912px) {
+    .contentHeading {
+      margin-top: 0px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .allcontent, .aboutsection {
+      max-width: 760px;
+    }
+  }
+  @media only screen and (max-width: 280px) {
+    .allcontent, .aboutsection {
+      max-width: 250;
+    }
+  }
+  @media only screen and (max-width: 475px) {
+    .contentHeading {
+      margin-top: 2em;
+    }
+  }
