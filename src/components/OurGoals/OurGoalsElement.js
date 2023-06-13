@@ -77,6 +77,9 @@ overflow:hidden;
 ${'' /* height:120px; */}
 height: ${({ isExpanded }) => (isExpanded ? '200px' : '120px')};
 transition: height 0.3s ease-in-out;
+@media screen and (max-width: 460px) {
+  height: ${({ isExpanded }) => (isExpanded ? '250px' : '120px')};
+  ${'' /* margin: 0px 10px; */}
 `
 
 export const ImageWrap= styled.div`
