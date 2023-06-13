@@ -97,7 +97,7 @@ const OurGoals = () => {
                 </Col>
                 <Col lg={1}></Col>
                 <Col lg={4} className=''>
-                    <Container>
+                    <Container className="px-5">
                     <Row className="mb-5">
                         <GoalCard isExpanded={isExpanded1} className="">
                         <RowWrap>
