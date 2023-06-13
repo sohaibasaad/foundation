@@ -59,10 +59,10 @@ const OurGoals = () => {
     setRotated3(!isRotated3);
   };
     return (
-        <Section>
+        <Section style={{ overflowX: 'hidden' }}>
             <Row className='pt-5'>
                 <Col className='mb-5' lg={6}>
-                    <Container>
+                    <Container className="px-5">
                     <Row>
                         <Col>
                         <TitleWrap>
@@ -72,7 +72,7 @@ const OurGoals = () => {
                         </Col>
                     </Row>
                     <Row>
-                    <Col lg={7}>
+                    <Col lg={8}>
                     <SubHeading>
                             Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet
                         </SubHeading> 
