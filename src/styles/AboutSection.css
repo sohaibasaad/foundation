@@ -1,3 +1,9 @@
+html{
+  overflow-x:hidden;
+}
+body{
+  overflow-x:hidden;
+}
 .aboutsection {
     margin: 8px;
     background-color: #457B6D;
@@ -17,6 +23,7 @@
 .heading1 {
     font-weight: 600;
     font-size: 30px;
+    font-family: 'Poppins';
     line-height: 30px;
     letter-spacing: 0.1em;
     margin-left: 113px;
@@ -40,11 +47,13 @@
     margin-top: 4em ;
     font-weight: 600;
     font-size: 24px;
+    font-family: 'Poppins';
     margin-left: 1rem;
     letter-spacing: 3px;
 }
 
 .para {
+  font-family: 'Poppins';
     font-weight: 400;
     font-size: 16px;
     margin-left: 1rem;

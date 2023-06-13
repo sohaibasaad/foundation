@@ -1,5 +1,215 @@
-.footer{
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.footer {
     background-color: #014E7F;
     margin-top: 30px;
-    padding: 45px 50px 45px 50px;
+    padding: 45px 50px 35px 10px !important;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logofooter__logo {
+    margin-top: 80px;
+}
+
+.footer__privacy-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footer__privacy,
+ul li {
+    font-size: 1rem;
+}
+
+.footer__link-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.Links_items {
+    cursor: pointer;
+}
+
+.buttons_section {
+    box-sizing: border-box;
+    width: 620px;
+    height: 120px;
+    background: #F8F3EA;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttons_section .desription {
+    width: 244px;
+    height: 60px;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 30px 20px 30px 10px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonsContainer {
+    margin-top: 35px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonsContainer ._button {
+    background: #457B6D;
+    border: 1px solid #B6B6B6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 163px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.social_links_section {
+    float: right;
+    margin-top: -2vh;
+}
+
+.social_links_heading {
+    font-weight: bold;
+    float: right;
+    font-size: 16px;
+    margin-right: -69px;
+}
+
+#links_section {
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -90px;
+}
+
+#links_section a {
+    height: 50px;
+    width: 53px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 65px;
+    margin-left: 13.1px;
+    color: #014E7F;
+}
+
+@media only screen and (max-width: 540px) {
+    .buttons_section {
+        width: 100%;
+        margin: 20px;
+        height: 100%;
+    }
+
+    #buttonsContainer {
+        margin-top: 1px;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    #buttonsContainer ._button {
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0;
+    }
+
+    .buttons_section .desription {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .social_links_section {
+        margin-right: 4rem;
+        margin-top: 6vh;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .buttons_section {
+        width: 100%;
+        margin: 20px;
+        height: 100%;
+    }
+
+    #buttonsContainer {
+        margin-top: 1px;
+        margin-left: 0;
+    }
+
+    #buttonsContainer ._button {
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0;
+    }
+
+    .buttons_section .desription {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .social_links_section {
+        margin-right: 4rem;
+        margin-top: 6vh;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .buttons_section {
+        width: 100%;
+        margin: 20px;
+        height: 100%;
+    }
+
+    #buttonsContainer {
+        margin-top: 1px;
+        margin-left: 0;
+    }
+
+    #buttonsContainer ._button {
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0;
+    }
+
+    .buttons_section .desription {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .social_links_section {
+        margin-right: 4rem;
+        margin-top: 6vh;
+    }
+
 }
