@@ -8,7 +8,11 @@ body {
 
 .footer {
     background-color: #014E7F;
+<<<<<<< HEAD
     padding-top: 30px;
+=======
+    margin-top: 30px;
+>>>>>>> Arshiaswork
     padding: 45px 50px 35px 10px !important;
     color: #FFFFFF;
     font-family: 'Poppins';
@@ -153,7 +157,10 @@ ul li {
     }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> Arshiaswork
 @media only screen and (max-width: 1024px) {
     .buttons_section {
         width: 100%;
@@ -212,4 +219,9 @@ ul li {
         margin-right: 4rem;
         margin-top: 6vh;
     }
+<<<<<<< HEAD
 }
+=======
+
+}
+>>>>>>> Arshiaswork
