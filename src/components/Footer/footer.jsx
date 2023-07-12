@@ -9,6 +9,7 @@ import { faYoutube, faFacebook, faTwitter, faInstagram, faLinkedin } from "@fort
 
 const footer = () => {
   const date = new Date();
+  // eslint-disable-next-line
   const year = date.getFullYear();
   return (
     <footer className="footer">
@@ -20,11 +21,7 @@ const footer = () => {
             </div>
           </Col>
 
-<<<<<<< HEAD
-          <Col lg="2" md="4" sm="6" className="link">
-=======
           <Col lg="2" md="2" sm="6">
->>>>>>> Arshiaswork
             <div className="link_section">
               <h5 className="footer__link-title">Quick Links</h5>
               <ul className="Links_items">
@@ -37,11 +34,7 @@ const footer = () => {
             </div>
           </Col>
 
-<<<<<<< HEAD
-          <Col lg="2" md="4" sm="6"  className="link">
-=======
           <Col lg="2" md="2" sm="6">
->>>>>>> Arshiaswork
             <div className="privacy_section">
               <h5 className="footer__privacy-title">Privacy</h5>
               <ul className="Links_items">
@@ -53,19 +46,15 @@ const footer = () => {
             </div>
           </Col>
 
-<<<<<<< HEAD
-          <Col lg="6" md="12" sm="12">
-=======
           <Col lg="6" md="5" sm="12">
->>>>>>> Arshiaswork
             <div className="buttons_section" >
               <Container>
                 <Row>
-                  <Col lg="4"  md="4" sm="6">
+                  <Col lg="4" md="4" sm="6">
                     <p className="desription">Ready to start? Join the thousands like you finding help
                     </p>
                   </Col>
-                  <Col lg="8"  md="8" sm="6">
+                  <Col lg="8" md="8" sm="6">
                     <div id="buttonsContainer" >
                       <button className="_button">Start Fundraising</button>
                       <button className="_button">How It Works</button>

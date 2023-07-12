@@ -25,8 +25,4 @@ const DonateNowSection = () => {
 
     );
 };
-<<<<<<< HEAD
 export default DonateNowSection;
-=======
-export default DonateNowSection;
->>>>>>> Arshiaswork

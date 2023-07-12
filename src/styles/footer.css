@@ -8,11 +8,7 @@ body {
 
 .footer {
     background-color: #014E7F;
-<<<<<<< HEAD
-    padding-top: 30px;
-=======
     margin-top: 30px;
->>>>>>> Arshiaswork
     padding: 45px 50px 35px 10px !important;
     color: #FFFFFF;
     font-family: 'Poppins';
@@ -58,7 +54,6 @@ ul li {
     justify-content: center;
     align-items: center;
 }
-
 
 .buttons_section .desription {
     width: 244px;
@@ -132,59 +127,47 @@ ul li {
         margin: 20px;
         height: 100%;
     }
-
     #buttonsContainer {
         margin-top: 1px;
         margin-left: 0;
         justify-content: space-between;
     }
-
     #buttonsContainer ._button {
         width: 100%;
         margin-top: 10px;
         margin-right: 0;
     }
-
     .buttons_section .desription {
         width: 100%;
         margin: 10px 0;
         text-align: center;
     }
-
     .social_links_section {
         margin-right: 4rem;
         margin-top: 6vh;
     }
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> Arshiaswork
 @media only screen and (max-width: 1024px) {
     .buttons_section {
         width: 100%;
         margin: 20px;
         height: 100%;
     }
-
     #buttonsContainer {
         margin-top: 1px;
         margin-left: 0;
     }
-
     #buttonsContainer ._button {
         width: 100%;
         margin-top: 10px;
         margin-right: 0;
     }
-
     .buttons_section .desription {
         width: 100%;
         margin: 10px 0;
         text-align: center;
     }
-
     .social_links_section {
         margin-right: 4rem;
         margin-top: 6vh;
@@ -197,31 +180,22 @@ ul li {
         margin: 20px;
         height: 100%;
     }
-
     #buttonsContainer {
         margin-top: 1px;
         margin-left: 0;
     }
-
     #buttonsContainer ._button {
         width: 100%;
         margin-top: 10px;
         margin-right: 0;
     }
-
     .buttons_section .desription {
         width: 100%;
         margin: 10px 0;
         text-align: center;
     }
-
     .social_links_section {
         margin-right: 4rem;
         margin-top: 6vh;
     }
-<<<<<<< HEAD
 }
-=======
-
-}
->>>>>>> Arshiaswork
