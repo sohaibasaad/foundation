@@ -14,7 +14,7 @@ const AboutSection = () => {
 
 <div className="heading">
   <p className="line"></p>
-  <p className="heading1">ABOUT US</p>
+  <p className="heading1">ABOUT USkmkmkmkmkm</p>
 </div>
 
 <Container className="allcontent">
