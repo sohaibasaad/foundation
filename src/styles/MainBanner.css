@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -50,32 +49,35 @@ select{
     box-shadow: none;
 }
 
-/************************** Header css **************************/
-.main-header {
-    padding: 20px 0;
+/************************** Banner css **************************/
+.Main-banner {
+    padding: 40px 0;
     background: #F8F3EA;
 }
-.main-header .nav-box {
-    background: #D9E6E5;
-    padding: 12px 22px;
-    border-radius: 22px;
-    box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 15px;
+.Main-banner .content-box {
+    text-align: center;
 }
-.main-header .nav-box .nav-item {
-    padding: 0 7px;
+.Main-banner .content-box h2 {
+    font-size: 54px;
+    font-weight: 600;
+    color: #02627B;
 }
-.main-header .nav-box .nav-item .nav-link {
-    color: #616161 !important;
-    font-weight: 500 !important;
-    transition: 0.5s;
+.Main-banner .content-box .para {
+    font-size: 15px;
+    padding: 10px 0;
+    color: #000;
+    line-height: 23px;
 }
-.main-header .nav-box .nav-item .nav-link:hover {
-    color: #6F978B !important;
+.Main-banner .content-box .banner-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
 }
-.main-header .nav-box .side-btn {
-    padding-left: 10px;
+.Main-banner .content-box .banner-btn li {
+    padding: 0 30px;
 }
-.main-header .nav-box .side-btn .sign-btn {
+.Main-banner .content-box .banner-btn li .donate-btn {
     background-color: #6F978B;
     border: 2px solid #6F978B;
     padding: 10px 30px;
@@ -84,14 +86,13 @@ select{
     font-weight: 400;
     text-decoration: none;
     transition: 0.5s;
-    margin: 0 5px;
 }
-.main-header .nav-box .side-btn .sign-btn:hover {
+.Main-banner .content-box .banner-btn li .donate-btn:hover {
     background-color: transparent;
     border: 2px solid #6F978B;
     color: #6F978B;
-    }
-.main-header .nav-box .side-btn .fund-btn {
+}
+.Main-banner .content-box .banner-btn li .video-btn {
     background-color: transparent;
     border: 2px solid #6F978B;
     padding: 10px 30px;
@@ -101,13 +102,12 @@ select{
     text-decoration: none;
     transition: 0.5s;
 }
-.main-header .nav-box .side-btn .fund-btn:hover {
+.Main-banner .content-box .banner-btn li .video-btn:hover {
     background-color: #6F978B;
     border: 2px solid #6F978B;
     color: #fff;
 }
-/************************** Header css end **************************/
-
+/************************** Banner css end **************************/
 
 /************************** media-query **************************/
 
