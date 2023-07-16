@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+.btn:focus {
+    outline: none;
+}
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a,button{
+    display: inline-block;
+}
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+select{
+    cursor: pointer;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/************************** Header css **************************/
+.main-header {
+    padding: 20px 0;
+}
+.main-header .nav-box {
+    background: #D9E6E5;
+    padding: 12px 22px;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 15px;
+}
+.main-header .nav-box .nav-item {
+    padding: 0 7px;
+}
+.main-header .nav-box .nav-item .nav-link {
+    color: #616161 !important;
+    font-weight: 500 !important;
+    transition: 0.5s;
+}
+.main-header .nav-box .nav-item .nav-link:hover {
+    color: #6F978B !important;
+}
+.main-header .nav-box .side-btn {
+    padding-left: 10px;
+}
+.main-header .nav-box .side-btn .sign-btn {
+    background-color: #6F978B;
+    border: 2px solid #6F978B;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 0 5px;
+}
+.main-header .nav-box .side-btn .sign-btn:hover {
+    background-color: transparent;
+    border: 2px solid #6F978B;
+    color: #6F978B;
+    }
+.main-header .nav-box .side-btn .fund-btn {
+    background-color: transparent;
+    border: 2px solid #6F978B;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #6F978B;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.main-header .nav-box .side-btn .fund-btn:hover {
+    background-color: #6F978B;
+    border: 2px solid #6F978B;
+    color: #fff;
+}
+/************************** Header css end **************************/
+
+
+/************************** media-query **************************/
+
+@media only screen and (min-width: 1921px) and (max-width: 7368px) {}
+
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {}
+
+@media only screen and (min-width: 1445px) and (max-width: 1599px) {}
+
+@media only screen and (min-width: 1366px) and (max-width: 1444px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {}

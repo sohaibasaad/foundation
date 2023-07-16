@@ -7,7 +7,7 @@ import "@fontsource/poppins";
 
 const AboutSection = () => {
   return (
-
+    
     
     <div className="abt_sect">
       <div className="aboutsection">
