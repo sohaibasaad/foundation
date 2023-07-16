@@ -49,55 +49,76 @@ select{
     box-shadow: none;
 }
 
-/************************** about css **************************/
-.sec-about {
-    padding: 40px 0;
+/************************** Choose Us css **************************/
+.sec-why-choose {
+    padding: 50px 0;
     background: #F8F3EA;
 }
-.sec-about .about-box {
-    background-color: #457B6D;
-    padding: 40px 45px;
-    border-radius: 50px;
-}
-.sec-about .about-box  .sec-title {
-    padding-bottom: 80px;
-}
-.sec-about .about-box  .sec-title h2{
-    position: relative;
+.sec-why-choose .sec-title h2{
+    color: #014E7F;
     font-size: 28px;
-    font-weight: 500;
-    color: #fff;
+    font-weight: 600;
+    position: relative;
+    padding-left: 40px;
     text-transform: uppercase;
-    padding-left: 50px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
-.sec-about .about-box  .sec-title h2::before{
+.sec-why-choose .sec-title h2::before {
     content: '';
-    background-color: #fff;
+    background: #014E7F;
+    width: 37px;
+    height: 4px;
     position: absolute;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 45px;
-    height: 3px;
 }
-.sec-about .about-box .img-box img{
-    border-radius: 20px;
+.sec-why-choose .sec-title .para {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 300;
 }
-.sec-about .about-box .content-box h4 {
-    color: #fff;
+.sec-why-choose .choose-box {
+    margin-top: 40px;
+}
+.sec-why-choose .choose-box .card-box {
+    background: #fffcf7;
+    padding: 50px 30px;
+    border-left: 15px solid #457B6D;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
+}
+.sec-why-choose .choose-box .card-box .img-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sec-why-choose .choose-box .card-box .img-box img{
+    height: 80px;
+    object-fit: contain;
+    width: 90px;
+} 
+.sec-why-choose .choose-box .card-box h6 {
     font-size: 24px;
-    font-weight: 600;
-    margin: 0;
-    padding-bottom: 30px;
+    font-weight: 700;
+    color:  #9D9B9B;
+    padding-bottom: 15px;
 }
-.sec-about .about-box .content-box .para {
-    color: #fff;
-    font-size: 15px;
-    margin: 0;
-    line-height: 26px;
+.sec-why-choose .choose-box .card-box h2 {    
+    font-size: 24px;    
+    font-weight: 500;    
+    color: #000;
 }
-/************************** about css end **************************/
+.sec-why-choose .choose-box .card-box ul {   
+    list-style: disc;   
+    padding: 10px 0 0 30px;
+}
+.sec-why-choose .choose-box .card-box li {
+    font-size: 16px;    
+    font-weight: 400;    
+    color: #000;
+}
+
+/************************** Choose Us css end **************************/
 
 /************************** media-query **************************/
 

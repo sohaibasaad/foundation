@@ -107,6 +107,35 @@ select{
     border: 2px solid #6F978B;
     color: #fff;
 }
+
+.Main-banner .lower-box {
+    padding-top: 70px;
+}
+.Main-banner .lower-box .img-card .img-box img {
+    border-radius: 10px;
+}
+.Main-banner .lower-box .img-card .text-box-1 {
+    background: #B5D5D4;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.Main-banner .lower-box .img-card  .text-box-2 {
+    background: #02627B;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.Main-banner .lower-box .img-card  .text-box-2 .short-text {
+    color: #fff;
+    margin: 0;
+    padding: 10px 3px;
+}
+.short-text {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
 /************************** Banner css end **************************/
 
 /************************** media-query **************************/

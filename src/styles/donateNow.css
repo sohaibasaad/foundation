@@ -49,55 +49,73 @@ select{
     box-shadow: none;
 }
 
-/************************** about css **************************/
-.sec-about {
-    padding: 40px 0;
+/************************** Donate css **************************/
+.case-study {
+    padding: 60px 0;
     background: #F8F3EA;
 }
-.sec-about .about-box {
-    background-color: #457B6D;
-    padding: 40px 45px;
-    border-radius: 50px;
-}
-.sec-about .about-box  .sec-title {
-    padding-bottom: 80px;
-}
-.sec-about .about-box  .sec-title h2{
-    position: relative;
-    font-size: 28px;
-    font-weight: 500;
-    color: #fff;
-    text-transform: uppercase;
-    padding-left: 50px;
-    letter-spacing: 1px;
-}
-.sec-about .about-box  .sec-title h2::before{
-    content: '';
-    background-color: #fff;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 45px;
-    height: 3px;
-}
-.sec-about .about-box .img-box img{
+.case-study .donate-box {
+    background: #B5D5D4;
+    padding: 30px 25px;
     border-radius: 20px;
 }
-.sec-about .about-box .content-box h4 {
+.case-study .donate-box .img-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+.case-study .donate-box .img-box img {
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.case-study .donate-box .img-box .donate-btn{  
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    background: #014E7F;
+    padding: 10px 26px;
     color: #fff;
-    font-size: 24px;
+    border-radius: 10px;
     font-weight: 600;
-    margin: 0;
-    padding-bottom: 30px;
+    text-decoration: none;
 }
-.sec-about .about-box .content-box .para {
-    color: #fff;
-    font-size: 15px;
-    margin: 0;
-    line-height: 26px;
+.case-study .donate-box .bar-list{    
+    display: flex;    
+    align-items: center;   
+    justify-content: space-between;   
+    padding: 10px 0;
 }
-/************************** about css end **************************/
+.case-study .donate-box .bar-list li{   
+    font-size: 18px;  
+    font-weight: 500;
+    color: #2D2929;
+}
+.case-study .donate-box .lower-content {
+    margin-top: 20px;
+}
+.case-study .donate-box .lower-content h6{   
+    font-size: 22px;  
+    font-weight: 600;    
+    color: #014E7F;
+}
+.case-study .donate-box .lower-content .para{padding: 10px 0;font-weight: 300;}
+.case-study .donate-box .lower-content .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.case-study .donate-box .lower-content .arrow-right a {
+    color: #000;
+    font-size: 22px;
+}
+.progress {
+    height: 0.7rem !important;
+    margin: 5px 0;
+}
+.progress-bar {
+    background-color: #014E7F !important;
+}
+/************************** Donate css end **************************/
 
 /************************** media-query **************************/
 

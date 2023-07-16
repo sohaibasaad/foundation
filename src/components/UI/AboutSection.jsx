@@ -1,56 +1,46 @@
 import React from "react";
-import "../../styles/AboutSection.css"
-import aboutImg from "../../assets/images/about pic.png"
-import {Col, Row,Container}  from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.css';
-import "@fontsource/poppins"; 
+import "../../styles/AboutSection.css";
+import aboutImg from "../../assets/images/about pic.png";
+import "bootstrap/dist/css/bootstrap.css";
+import "@fontsource/poppins";
 
 const AboutSection = () => {
   return (
-    
-    
-    <div className="abt_sect">
-      <div className="aboutsection">
-
-<div className="heading">
-  <p className="line"></p>
-  <p className="heading1">ABOUT US</p>
-</div>
-
-<Container className="allcontent">
-  
-  <Row>
-    <Col sm={4}>
-      <div className="about__img">
-        <img src={aboutImg} alt="" className="w-100" />
+    <section className="sec-about">
+      <div className="container">
+        <div className="about-box">
+          <div className="sec-title">
+            <h2>About Us</h2>
+          </div>
+          <div className="row align-items-center mb-5">
+            <div className="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4">
+              <div className="img-box">
+                <img src={aboutImg} alt="" className="img-fluid" />
+              </div>
+            </div>
+            <div className="col-12 col-sm-12 col-md-7 col-lg-8 col-xl-8 col-xxl-8">
+                <div className="content-box">
+                    <h4>Lorem Ipsum</h4>
+                    <p className="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet maximus elementum. Praesent eu mi euismod neque commodo volutpat. Suspendisse id ipsum vel mauris consectetur aliquam eu ac augue. Nulla sed dui eget lacus elementum tincidunt quis ac sapien. Sed at molestie metus. Mauris porttitor ullamcorper nisl, ut vehicula leo pellentesque volutpat. Proin vel posuere magna. Donec scelerisque sapien sed nulla tristique efficitur.</p>
+                </div>
+            </div>
+          </div>
+          <div className="row align-items-center">
+            <div className="col-12 col-sm-12 col-md-7 col-lg-8 col-xl-8 col-xxl-8">
+                <div className="content-box">
+                    <h4>Lorem Ipsum</h4>
+                    <p className="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet maximus elementum. Praesent eu mi euismod neque commodo volutpat. Suspendisse id ipsum vel mauris consectetur aliquam eu ac augue. Nulla sed dui eget lacus elementum tincidunt quis ac sapien. Sed at molestie metus. Mauris porttitor ullamcorper nisl, ut vehicula leo pellentesque volutpat. Proin vel posuere magna. Donec scelerisque sapien sed nulla tristique efficitur.</p>
+                </div>
+            </div>
+            <div className="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4">
+              <div className="img-box">
+                <img src={aboutImg} alt="" className="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </Col>
-
-    <Col sm={8}>
-      <p className="contentHeading">Lorem Ipsum</p>
-      <p className="para">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo nulla voluptatibus dolorem accusantium exercitationem sed animi corporis numquam. Ipsam numquam blanditiis commodi dolorem autem rem voluptatem cupiditate, quaerat expedita quasi!</p>
-    </Col>
-  </Row>
-
-  <Row id="contenttwo">
-  <Col sm={8}>
-      <p className="contentHeading">Lorem Ipsum</p>
-      <p className="para">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo nulla voluptatibus dolorem accusantium exercitationem sed animi corporis numquam. Ipsam numquam blanditiis commodi dolorem autem rem voluptatem cupiditate, quaerat expedita quasi!</p>
-    </Col>
-
-    <Col sm={4}>
-      <div className="about__img">
-        <img src={aboutImg} alt="" className="w-100" />
-      </div>
-    </Col>
-  </Row>
-
-</Container>
-</div>
-    </div>
-
+    </section>
   );
 };
 
