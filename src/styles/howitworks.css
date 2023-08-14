@@ -352,3 +352,46 @@ section.howitworks-faq {
 .howitworks-faq-inner-wrap .accordion-button img {
     margin-right: 15px;
 }
+
+
+@media (max-width:767px) {
+
+    .howitworks-video-wrap a,
+    .howitworks-video-wrap a img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .howitworks-crowdfunding-inner-img-wrap .row .col-md-4:not(:nth-child(2)) {
+        display: none;
+    }
+
+    .howitworks-crowdfunding-inner-img-wrap .row .col-md-4:nth-child(2) img {
+        scale: 1;
+    }
+
+    .howitworks-crowdfunding-inner-sec {
+        padding: 30px 30px;
+    }
+
+    .howitworks-crowdfunding-inner-img-wrap {
+        padding-bottom: 50px;
+    }
+
+    .howitworks-sec-heading h2 {
+        font-size: 32px;
+        padding-bottom: 24px;
+    }
+
+    section.howitworks-banner {
+        padding: 60px 0 40px;
+    }
+
+    .howitworks-steps-inner-wrap-card .row .col-md-4 {
+        padding-bottom: 30px;
+    }
+
+    section.howitworks-steps {
+        padding: 30px 0 30px;
+    }
+}

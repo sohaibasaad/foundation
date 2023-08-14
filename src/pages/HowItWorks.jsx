@@ -9,7 +9,7 @@ import Crowdfunding3 from "../assets/images/howitworks-crowdfunding3.png"
 import FaqIcon from "../assets/images/howitworks-faq-icon.png"
 
 
-function HowItWorks() {
+function howItWorks() {
     return (
         <>
             <Header />
@@ -181,4 +181,4 @@ function HowItWorks() {
     )
 }
 
-export default HowItWorks
+export default howItWorks
