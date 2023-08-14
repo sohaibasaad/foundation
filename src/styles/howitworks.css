@@ -1,0 +1,354 @@
+body {
+    background: #f8f3ea;
+}
+
+/* html:not(.main-header),
+body:not(.main-header) {
+    font-size: 0;
+} */
+
+footer {
+    margin-top: 0 !important;
+}
+
+.howitworks-banner-cnt h4 {
+    padding-bottom: 10px;
+    color: #014E7F;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.howitworks-banner-cnt p {
+    color: #707070;
+    font-size: 15px;
+}
+
+section.howitworks-banner {
+    padding: 100px 0 70px;
+    background: #f8f3ea;
+}
+
+
+.howitworks-banner-cnt h4 {
+    padding-bottom: 10px;
+    color: #014E7F;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.howitworks-banner-cnt p {
+    color: #707070;
+    font-size: 15px;
+}
+
+section.howitworks-banner {
+    padding: 100px 0;
+    background: #f8f3ea;
+}
+
+.howitworks-heading {
+    color: #457B6D;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 35px;
+    position: relative;
+}
+
+.howitworks-heading:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 5px;
+    width: 25px;
+    border-radius: 3px;
+    background: #457B6D;
+}
+
+.howitworks-video-wrap>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.howitworks-video-wrap {
+    position: relative;
+    padding: 50px 0 70px;
+}
+
+.howitworks-video-wrap a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 125px;
+    height: 125px;
+}
+
+section.howitworks-video {
+    background: #f8f3ea;
+    padding-bottom: 20px;
+}
+
+
+.howitworks-sec-heading h2 {
+    color: #014E7F;
+    font-size: 37px;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+
+section.howitworks-crowdfunding {
+    background: #f8f3ea;
+    padding: 50px 0;
+}
+
+.howitworks-crowdfunding-inner-img-wrap img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.howitworks-crowdfunding-inner-sec {
+    padding: 70px 70px;
+    background: #B5D5D4;
+}
+
+.howitworks-crowdfunding-inner-img-wrap .row .col-md-4:not(:nth-child(2)) img {
+    padding: 0 25px;
+}
+
+.howitworks-crowdfunding-inner-img-wrap .row .col-md-4:nth-child(2) img {
+    scale: 1.125;
+}
+
+.howitworks-crowdfunding-inner-img-wrap {
+    padding-bottom: 70px;
+}
+
+.howitworks-crowdfunding-inner-sec p {
+    color: #3E3B3B;
+    font-size: 17px;
+}
+
+.howitworks-crowdfunding-inner-sec p span {
+    color: #3D6E61;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+section.howitworks-steps {
+    background: #f8f3ea;
+    padding: 30px 0 70px;
+}
+
+section.howitworks-steps {
+    background: #f8f3ea;
+    padding: 30px 0 70px;
+}
+
+.howitworks-steps-inner-wrap-card h5 {
+    color: #014E7F;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.howitworks-steps-inner-wrap-card {
+    text-align: center;
+}
+
+.howitworks-steps-inner-wrap-card p {
+    color: black;
+    font-size: 15px;
+}
+
+.howitworks-steps-inner-wrap-card-inner {
+    border-radius: 15px;
+    background: #6F978B;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 33px;
+}
+
+.howitworks-steps-inner-wrap-card-inner p {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.howitworks-steps-inner-wrap-card-inner a {
+    border-radius: 7px;
+    background: #B5D5D4;
+    color: #595858;
+    font-size: 15px;
+    display: block;
+    width: max-content;
+    margin: auto;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: 500;
+    filter: drop-shadow(0px 5px 8px rgba(0, 0, 0, 0.25));
+}
+
+a.howitworks-show-hover {
+    border-radius: 10px;
+    background: #02627B;
+    filter: drop-shadow(0px 5px 8px rgba(0, 0, 0, 0.25));
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 13px 20px;
+    opacity: 0;
+    margin-top: 60px;
+}
+
+.howitworks-steps-inner-wrap-card-inner-hover a:last-child {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 60px;
+    display: none;
+}
+
+.howitworks-steps-inner-wrap-card-inner-hover {
+    position: relative;
+    /* padding: 50px 50px 70px; */
+}
+
+.howitworks-steps-inner-wrap-card-inner-hover:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -15px;
+    height: 135px;
+    width: 70%;
+    margin: auto;
+    border: 1px dashed #9747FF;
+    border-radius: 5px;
+    display: none;
+}
+
+.howitworks-steps-inner-wrap-card .row .col-md-4:hover .howitworks-steps-inner-wrap-card-inner-hover:after,
+.howitworks-steps-inner-wrap-card .row .col-md-4:hover .howitworks-steps-inner-wrap-card-inner-hover a:last-child {
+    display: block;
+}
+
+.howitworks-steps-inner-wrap-card .row .col-md-4:hover a.howitworks-show-hover {
+    opacity: 1;
+}
+
+.howitworks-steps-inner-wrap-head h6 {
+    color: transparent;
+    font-size: 65px;
+    font-weight: 600;
+    position: relative;
+    width: max-content;
+    z-index: 1;
+    -webkit-text-stroke: 2px #595858;
+    margin: auto;
+}
+
+
+
+.howitworks-steps-inner-wrap-head h6:after {
+    content: "";
+    position: absolute;
+    left: -3px;
+    bottom: 0;
+    background: #82aeb5;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.howitworks-steps-inner-wrap-head ul {
+    font-size: 0;
+    padding: 0;
+}
+
+.howitworks-steps-inner-wrap-head ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    text-align: center;
+    position: relative;
+}
+
+.howitworks-steps-inner-wrap-head ul li:not(:last-child):after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    border: 1px dashed black;
+    top: 0;
+    bottom: -25px;
+    margin: auto;
+}
+
+.howitworks-steps-inner-wrap-head {
+    padding: 50px 0 40px;
+}
+
+section.howitworks-faq {
+    background: #f8f3ea;
+    padding: 0 0 100px;
+}
+
+.howitworks-faq-inner-wrap {
+    border-radius: 20px;
+    background: #d0dcd8;
+    padding: 40px 60px;
+    margin: 50px 0 0;
+}
+
+.howitworks-faq-inner-wrap button {
+    background: #d0dcd8 !important;
+    color: #595858;
+    padding: 15px 20px !important;
+    font-size: 17px;
+}
+
+.howitworks-faq-inner-wrap .accordion-item {
+    border-radius: 10px !important;
+    border: 2px solid #ececec;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background: transparent !important;
+}
+
+.howitworks-faq-inner-wrap .accordion-item:not(:first-of-type) {
+    border: 2px solid #ececec !important;
+}
+
+.howitworks-faq-inner-wrap .accordion-body {
+    color: #014E7F;
+    font-size: 14px;
+    padding: 35px;
+    background: #d0dcd8;
+    position: relative;
+}
+
+.howitworks-faq-inner-wrap .accordion-body:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #7d7b7b66;
+    height: 1px;
+    width: calc(100% - 45px);
+}
+
+.howitworks-faq-inner-wrap .accordion-button:not(.collapsed) {
+    color: #595858;
+    box-shadow: none !important;
+}
+
+.howitworks-faq-inner-wrap .accordion-button img {
+    margin-right: 15px;
+}

@@ -1,0 +1,67 @@
+.footerDashboard-cnt {
+    position: relative;
+    z-index: 1;
+}
+
+.footerDashboard-cnt p {
+    color: #4B4747;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.footerDashboard-cnt p a {
+    text-decoration: none;
+    color: #014E7F;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.footerDashboard-cnt ul li a {
+    border-radius: 10px;
+    background: #13CB6A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerDashboard-cnt ul li a img {
+    margin-right: 5px;
+}
+
+.footerDashboard-cnt ul li a.facebook-foot {
+    background: #354F84;
+}
+
+.footerDashboard-cnt ul li {
+    display: inline-block;
+}
+
+.footerDashboard-cnt ul li:not(:first-child) {
+    padding-left: 30px;
+}
+
+footer.footerDashboard-main-wrap {
+    padding: 90px 0 40px;
+    position: relative;
+    background: #d9e6e5;
+}
+
+img.footer-bg-img {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    object-fit: cover;
+    object-position: top;
+    top: -90px;
+}

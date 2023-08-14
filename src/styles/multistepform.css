@@ -1,0 +1,419 @@
+section.multistep-sec {
+    background: #f8f3ea;
+    padding: 60px 0 calc(100px + 5%);
+}
+
+.multistep-sec-heading h4 {
+    text-align: center;
+    color: #014E7F;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.multistep-head ul {
+    padding: 60px 0;
+}
+
+.multistep-head ul li {
+    display: block;
+    text-align: center;
+    padding-right: 50px;
+    position: relative;
+}
+
+.multistep-item {
+    background: #679EA9;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.multistep-item img {
+    width: 30px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.multistep-head ul li:not(:last-child) {
+    padding-bottom: 50px;
+}
+
+.multistep-head ul li:not(:last-child):after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 2px;
+    background: #D9D9D9;
+    left: 33px;
+    margin: auto;
+    z-index: 0;
+}
+
+.multistep-head ul li:before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    height: 2px;
+    width: 100%;
+    background: #D9D9D9;
+    left: 0;
+    margin: auto;
+    z-index: 0;
+}
+
+/* css for active done states */
+
+.multistep-head ul li.active:before,
+.multistep-head ul li:not(li.active ~ li):not(li.active):before {
+    background: #014E7F;
+}
+
+.multistep-head ul li:not(li.active ~ li):not(li.active):after {
+    background: #014E7F;
+}
+
+.multistep-form-inner-main {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #6f978b5c;
+    border-radius: 10px;
+    padding: 70px 50px;
+}
+
+.form-select {
+    border-radius: 8px;
+    background: rgba(69, 123, 109, 0.33);
+}
+
+.multiform-select {
+    border-radius: 8px;
+    background: rgba(69, 123, 109, 0.33);
+}
+
+.multiform-select select {
+    --bs-form-select-bg-im: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27%23343a40%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e);
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    padding: 10px 15px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    word-break: break-word;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: var(--bs-form-select-bg-im);
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    appearance: none;
+}
+
+.multiform-select select option {
+    color: black;
+    display: block;
+    width: 100%;
+    word-break: break-word;
+}
+
+.multiform-select-inner {}
+
+.multiform-select-inner {
+    border-radius: 8px;
+    background: rgba(69, 123, 109, 0.33);
+    padding: 10px 15px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.multiform-select-inner h5 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.multiform-select-inner select {
+    --bs-form-select-bg-im2: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27%23343a40%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e);
+    display: block;
+    /* width: 100%; */
+    border: 0;
+    padding: 5px 35px 5px 10px;
+    color: #457B6D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    word-break: break-word;
+    outline: none;
+    border-radius: 10px;
+    background: #D3D8C1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: var(--bs-form-select-bg-im2);
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    appearance: none;
+}
+
+.multiform-input input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #fff;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    padding: 5px 0;
+}
+
+
+.multiform-input input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+.multiform-input input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff !important;
+}
+
+.multiform-input input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fff !important;
+}
+
+.step-center-text h5 {
+    color: #457B6D;
+    font-size: 18px;
+}
+
+.step-center-text h5 a {
+    color: #014e7fb5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.stepMain-btn {
+    border-radius: 10px;
+    background: #9CB5AA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 13px 30px;
+    outline: none;
+    border: 0;
+    color: #02627B;
+    font-size: 19.5px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.input-check label {
+    color: #575656b5;
+    padding-left: 12px;
+}
+
+.input-check label a {
+    color: #014E7F;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.input-check input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+}
+
+.input-check input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -2px;
+    left: 0;
+    background-color: #c7d1c8;
+    border: 2px solid #999999;
+}
+
+.input-check input[type=checkbox]:checked:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -2px;
+    left: 0;
+    background-color: #1E80EF;
+    border: none;
+}
+
+.input-check input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 1px;
+    left: 6px;
+}
+
+.multiform-input-title label {
+    color: #014E7F;
+    font-size: 17px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.multiform-input-title input {
+    border-radius: 8px;
+    background: rgba(69, 123, 109, 0.33);
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    padding: 12px 15px;
+    color: black;
+    display: block;
+    width: 100%;
+}
+
+
+.multiform-docs-list ul li h5 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0;
+    padding-right: 15px;
+}
+
+.multiform-docs-list ul li {
+    color: #FFF;
+    font-size: 0;
+    font-weight: 400;
+    line-height: 1.3;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.multiform-docs-list ul {
+    padding: 0;
+    margin: 0;
+}
+
+.multiform-input-file {
+    border-radius: 8px;
+    background: rgba(69, 123, 109, 0.33);
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.multiform-input-file input {
+    font-size: 0;
+    padding: 0;
+    opacity: 0;
+}
+
+.multiform-input-file label h5 {
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.multiform-input-file label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.multiform-docs-list ul li label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+@media (max-width:992px) {
+    .multistep-head ul li:before {
+        content: none;
+    }
+
+    .multistep-head ul li .multistep-item:after {
+        content: "";
+        position: absolute;
+        height: calc(100% + 20px);
+        width: calc(100% + 20px);
+        background: transparent !important;
+        margin: auto;
+        z-index: 0;
+        top: 0;
+        bottom: 0;
+        left: -10px;
+        right: 0;
+        border: 2px solid #D9D9D9;
+        border-radius: 50%;
+    }
+
+    .multistep-head ul li {
+        position: relative;
+        display: inline-block;
+        padding: 0;
+    }
+
+    .multistep-head ul li:not(:last-child) {
+        padding-bottom: 0;
+        padding-right: 50px;
+    }
+
+    .multistep-head ul li:not(:last-child):after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 50px;
+        background: #D9D9D9;
+        right: -35px;
+        margin: auto;
+        z-index: 0;
+        top: 5px;
+        bottom: 0;
+    }
+
+    .multistep-head {
+        text-align: center;
+    }
+
+    .multistep-head ul li.active .multistep-item:after {
+        border-color: #014E7F;
+    }
+
+    .multistep-head ul li.active:after {
+        background: #014E7F;
+    }
+
+    .multistep-head ul li:not(li.active ~ li):not(li.active) .multistep-item:after {
+        border-color: #014E7F;
+    }
+}
