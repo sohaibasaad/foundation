@@ -4,11 +4,6 @@ import HowItWorkspage from "./pages/HowItWorkspage"
 import MultiStepFormPage from "./pages/MultiStepFormPage";
 function App() {
     return (
-        // <>
-        //     {/* <Landingpage /> */}
-        //     {/* <MultiStepFormPage /> */}
-        //     <HowItWorks />
-        // </>
         <BrowserRouter>
             <Routes>
                 <Route path="*" element={<Landingpage />} />
