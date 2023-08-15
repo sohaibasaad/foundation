@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HowItWorks from "./pages/howItWorks";
 import Landingpage from "./pages/landingpage";
+import HowItWorkspage from "./pages/HowItWorkspage"
 import MultiStepFormPage from "./pages/MultiStepFormPage";
 function App() {
     return (
@@ -15,7 +15,7 @@ function App() {
                 <Route index path="/" element={<Landingpage />} />
                 <Route path="/home" element={<Landingpage />} />
                 <Route path="/multiStepForm" element={<MultiStepFormPage />} />
-                <Route path="/howItWorks" element={<HowItWorks />} />
+                <Route path="/howItWorks" element={<HowItWorkspage />} />
             </Routes>
         </BrowserRouter>
     );
